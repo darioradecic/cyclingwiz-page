@@ -1,0 +1,23 @@
+<div class="affiliate-product-container affiliate-product-container-red">
+  <div class="affiliate-product-title-container affiliate-product-title-container-red">
+    <a target="_blank" class="affiliate-product-title-link" href="{{.Get `url`}}"><h2 class="affiliate-product-title">{{.Get `title`}}</h2></a>
+  </div>
+  <div class="affiliate-prouduct-flex-elements">
+    <div class="affiliate-product-container-image">
+      <a target="_blank" href="{{.Get `url`}}">
+        <img class="affiliate-product-img" src="{{.Get `img`}}" alt="{{.Get `title`}}">
+      </a>
+    </div>
+    <div class="affiliate-product-container-content">
+      <p class="affiliate-product-oneliner">{{.Get `oneliner`}}</p>
+      <p class="affiliate-product-description">{{.Get `description`}}</p>
+      <a target="_blank" href="{{.Get `url`}}" class="button affiliate-button affiliate-button-red">{{.Get `btn_text`}}</a>
+      {{ if (.Get `url_2`)}}
+        <a target="_blank" href="{{.Get `url_2`}}" class="button affiliate-button affiliate-button-red">{{.Get `btn_text_2`}}</a>
+      {{ end }}
+      {{ if (.Get `url_3`)}}
+        <a target="_blank" href="{{.Get `url_3`}}" class="button affiliate-button affiliate-button-red">{{.Get `btn_text_3`}}</a>
+      {{ end }}
+    </div>
+  </div>
+</div>

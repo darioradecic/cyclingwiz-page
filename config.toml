@@ -1,0 +1,4 @@
+baseURL = 'cyclingwiz.com'
+languageCode = 'en-us'
+title = 'Cycling Wiz'
+theme = ['danto']

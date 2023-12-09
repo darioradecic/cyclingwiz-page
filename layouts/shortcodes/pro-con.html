@@ -1,0 +1,33 @@
+<div class="pro-con-container">
+  <div class="pro-container">
+    <h2 class="pro-title">Pros</h2>
+    <div class="pro-list">
+      <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_1`}}</p>
+      {{ if (.Get `pro_2`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_2`}}</p> {{ end }}
+      {{ if (.Get `pro_3`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_3`}}</p> {{ end }}
+      {{ if (.Get `pro_4`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_4`}}</p> {{ end }}
+      {{ if (.Get `pro_5`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_5`}}</p> {{ end }}
+      {{ if (.Get `pro_6`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_6`}}</p> {{ end }}
+      {{ if (.Get `pro_7`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_7`}}</p> {{ end }}
+      {{ if (.Get `pro_8`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_8`}}</p> {{ end }}
+      {{ if (.Get `pro_9`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_9`}}</p> {{ end }}
+      {{ if (.Get `pro_10`)}} <p class="pro-list-icon"><i class="fa-solid fa-circle-check"></i> {{ .Get `pro_10`}}</p> {{ end }}
+    </div>
+  </div>
+
+  <div class="con-container">
+    <h2 class="con-title">Cons</h2>
+    <div class="con-list">
+      <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_1` }}</p>
+      {{ if (.Get `con_2`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_2` }}</p> {{ end }}
+      {{ if (.Get `con_3`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_3` }}</p> {{ end }}
+      {{ if (.Get `con_4`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_4` }}</p> {{ end }}
+      {{ if (.Get `con_5`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_5` }}</p> {{ end }}
+      {{ if (.Get `con_6`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_6` }}</p> {{ end }}
+      {{ if (.Get `con_7`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_7` }}</p> {{ end }}
+      {{ if (.Get `con_8`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_8` }}</p> {{ end }}
+      {{ if (.Get `con_9`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_9` }}</p> {{ end }}
+      {{ if (.Get `con_10`)}} <p class="con-list-icon"><i class="fa-solid fa-circle-xmark"></i> {{ .Get `con_10` }}</p> {{ end }}
+    </div>
+  </div>
+</div>

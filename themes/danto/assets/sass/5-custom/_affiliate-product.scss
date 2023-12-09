@@ -1,0 +1,89 @@
+.affiliate-product-title-container {
+  padding: 0 1rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.affiliate-product-title-container-green {
+  background-color: var(--primary-color);
+  border-bottom: 7px solid var(--primary-color);
+}
+
+.affiliate-product-title-container-red {
+  background-color: var(--red);
+  border-bottom: 7px solid var(--red);
+}
+
+.affiliate-product-title {
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.affiliate-product-title-link {
+  text-decoration: none !important;
+}
+
+.affiliate-product-container {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.affiliate-product-container-green {
+  border: 7px solid var(--primary-color);
+}
+
+.affiliate-product-container-red {
+  border: 7px solid var(--red);
+}
+
+.affiliate-prouduct-flex-elements {
+  padding: 1rem 1rem;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1.5rem;
+
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
+}
+
+.affiliate-product-container-image {
+  width: 35%;
+  margin-bottom: 0;
+
+  @media (max-width: $tablet) {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.affiliate-product-container-content {
+  width: 65%;
+
+  @media (max-width: $tablet) {
+    width: 100%;
+  }
+
+}
+.affiliate-product-oneliner {
+  font-style: italic;
+  margin-bottom: 0;
+}
+.affiliate-product-description {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.affiliate-button {
+  margin-bottom: 0.5rem;
+}
+
+.affiliate-button-green {
+  background-color: var(--primary-color);
+}
+
+.affiliate-button-red {
+  background-color: var(--red);
+}

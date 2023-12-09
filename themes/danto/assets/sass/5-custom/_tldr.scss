@@ -1,0 +1,35 @@
+.tldr-container {
+  margin-bottom: 1.5rem;
+}
+
+.tldr-container-green {
+  border: 7px solid var(--primary-color);
+}
+
+.tldr-container-red {
+  border: 7px solid var(--red);
+}
+
+.tldr-title {
+  color: var(--white);
+  padding: 0 1rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+.tldr-title-green {
+  background-color: var(--primary-color);
+  border-bottom: 7px solid var(--primary-color);
+}
+
+.tldr-title-red {
+  background-color: var(--red);
+  border-bottom: 7px solid var(--red);
+}
+
+
+.tldr-text {
+  background-color: var(--white);
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+}

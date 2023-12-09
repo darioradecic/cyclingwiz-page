@@ -1,0 +1,43 @@
+.workout-stats-container {
+    margin-bottom: 1rem;
+
+    .workout-stats-title {
+        background-color: var(--color-orange);
+        padding: 0.25rem 1.25rem;
+        color: var(--white);
+        font-family: $heading-font-family;
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    .workout-stats-values {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 1rem;
+        border-left: 7px solid var(--color-orange);
+        border-right: 7px solid var(--color-orange);
+        border-bottom: 7px solid var(--color-orange);
+
+        .workout-stats-value {
+            margin: 0;
+
+            small {
+                text-transform: uppercase;
+                color: var(--blue-gray);
+            }
+
+            p {
+                font-weight: bold;
+                font-size: 24px;
+                margin-bottom: 0;
+
+                span {
+                    font-weight: normal;
+                    font-size: $base-font-size;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+<div class="workout-stats-container">
+    {{ if (.Get `title`)}}
+    <p class="workout-stats-title">{{.Get `title`}}</p>
+    {{ else }}
+    <p class="workout-stats-title">Workout Statistics</p>
+    {{ end }}
+    <div class="workout-stats-values">
+        <div class="workout-stats-value">
+            <small>Distance</small>
+            <p>{{.Get `distance`}}<span>km</span></p>
+        </div>
+        <div class="workout-stats-value">
+            <small>Time</small>
+            <p>{{.Get `duration`}}</p>
+        </div>
+        <div class="workout-stats-value">
+            <small>Elevation</small>
+            <p>{{.Get `elevation`}}<span>m</span></p>
+        </div>
+        <div class="workout-stats-value">
+            <small>Calories</small>
+            <p>{{.Get `calories`}}</p>
+        </div>
+    </div>
+</div>
