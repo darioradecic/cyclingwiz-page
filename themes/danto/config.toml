@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "cyclingwiz.com"
+baseURL = ""
 languageCode = "en-us"
 title = "Danto"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
