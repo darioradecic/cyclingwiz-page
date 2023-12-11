@@ -161,4 +161,4 @@ Week 1 was fun, and I ended up with **6 workout sessions in 7 days**. I'm accust
 
 Still, I have zero regrets and hope I'll increase my FTP by 5-10% at the end of the 6-week training plan.
 
-Stay tuned for Week 2 update.
+Read my [Week 2 update](/zwift-6-week-ftp-builder-review-week-2) next.
